@@ -1,10 +1,10 @@
-var domify = require ('domify');
-var events = require('events');
-var classes = require('classes');
-var movearound = require('movearound');
-var Emitter = require('emitter');
+var domify = require ('component-domify');
+var events = require('component-events');
+var classes = require('component-classes');
+var movearound = require('chemzqm-movearound');
+var Emitter = require('component-emitter');
 var tmpl = require('./template.html');
-var query = require('query');
+var query = require('component-query');
 
 
 /**
